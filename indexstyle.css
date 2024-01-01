@@ -12,6 +12,7 @@ body{
     background-color: #f9faf5;
 }
 h3{
+    text-align: center;
     color:blue;
 }
 .bunnerimg {
@@ -24,27 +25,13 @@ width: 98%;
     width: 100%;
     background-color: black;
 }
-h5{
+h4{
     color: rgba(248, 7, 7, 0.897);
     text-align: center;
 }
-.profile-table {
-border-collapse: collapse;
-width: 80%;
-margin: 20px auto;
-}
 
-.profile-img {
-width: 150px;
-height: 150px;
-object-fit: cover;
-border: 2px solid #333;
-}
-
-.profile-info {
-font-family: Arial, sans-serif;
-font-size: 14px;
-padding: 10px;
+.container1{
+    align-content: center;
 }
 
 </style>
