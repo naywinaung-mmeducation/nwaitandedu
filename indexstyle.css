@@ -1,59 +1,71 @@
-<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-button{
-    background-color:#B7BAC3;
-    font: optional;
-    font-size: x-small;
-    color:black;
-    width: 100px;
-    border-color: blue;
-}
-body{
-    background-color: #f9faf5;
-}
-h3{
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
     text-align: center;
-    color:blue;
 }
-.bunnerimg {
-width: 98%;
- height: auto;
- padding: 5px;
- align-items: center;
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
-#id1{
+
+#showcase {
+    background: #333;
+    color: white;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#services, #testimonials, #contact {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.service, .testimonial {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+input, textarea {
     width: 100%;
-    background-color: black;
-}
-h4{
-    color: rgba(248, 7, 7, 0.897);
-    text-align: center;
-}
-
-.container1{
-    align-content: center;
-}
-.profile-img{
-    width: flex;
-    width: 20%;
-}
-.column {
-  float: left;
-  padding: 10px;
-  height: 300px; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-.left {
-  width: 25%;
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.right {
-  width: 75%;
+button:hover {
+    background: #45a049;
 }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
